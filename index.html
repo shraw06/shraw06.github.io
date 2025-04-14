@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link href="index.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+         <div class="sidebar">
+            <h1>Portfolio</h1>
+            <a href="#aboutme">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Achievement & Contact</a>
+            <a href="CV.pdf" download target="_blank">Download My CV</a>
+            <a href="#text">Text Analyser</a>
+         </div>
+
+         <div class="main-content">
+          <div class="pages">
+
+            <section class="page" id="aboutme">
+          <div class="intro">
+                <h1>Hi, I am Shrawani Nanda.</h1>
+                
+                <div class="combi">
+                 <div>
+                  <p>
+                    I am a student currently pursuing B.Tech. in Computer Science and Engineering
+                    at IIIT Hyderabad.  I have a keen interest in 
+                    analyisng problems and coming up with creative solutions.
+                    I also enjoy problem-solving, learning web development, working with IoT systems
+                    focusing on user-centric designs.
+                  </p>
+                 </div>
+
+                 <div class="pfp-container">
+                  <img src="pfp.jpeg" href="#">
+                 </div>
+
+                  <div>
+                    <p>
+                    Beyond academics, I also participate in various extracurricular groups and
+                    student-led initiatives. I strongly believe in the value of collaboration,
+                    holistic development, and forming meaningful connections with like-minded individuals.
+                  </p>
+                  </div>
+                </div> 
+                
+          </div>
+         
+          <div>
+            <hr style="margin: 20px 0; border: 1px solid silver;">
+            <div class="quote1">
+              <em>"The expert in anything was once a beginner."</em><br>
+              <p style="text-align:right; margin-right: 200px;">– Helen Hayes </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="page" id="education">
+          <h1>Education</h1>
+         <div class="mained">
+          <div class="timeline">
+            <div class="timeline-event left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h2>uptil 2016</h2>
+                <p>Schooling (till 4th) at<br>
+                DAV Public School, Panvel, Navi Mumbai</p>
+              </div>
+            </div>
+          
+            <div class="timeline-event right">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h2>2016 - 2022</h2>
+                <p>Schooling (5th - 10th) at<br>
+                Open Minds A Birla School, Kankarbagh, Patna<br>
+                CBSE: 10th Boards</p>
+              </div>
+            </div>
+          
+
+          <div class="timeline-event left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h2>2022 - 2024</h2>
+              <p>Schooling (10th - 12th) at<br>
+              Holy Convent Senior Secondary School, Delhi<br>
+              CBSE: 12th Boards</p>
+            </div>
+          </div>
+
+        <div class="timeline-event right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h2>2024 - current</h2>
+            <p>Undergraduate Student at<br>
+            IIIT Hyderabad<br>
+            B.Tech. in CSE</p>
+          </div>
+        </div>
+          
+         </div>
+        </section>
+
+        <section class="page" id="skills">
+           <div class="universe">
+          <div class="galaxy1">
+            <div class="center-star">Professional</div>
+            <div id="professional-description-box" class="description-box"></div>
+            <div class="orbit">
+              <div class="planet" data-description="DSA in C/C++ — solving problems, building logic.">DSA</div>
+            </div>
+            <div class="orbit">
+              <div class="planet" data-description="End-to-end development using HTML, CSS, JS, Python, FastAPI, SQL, MongoDB, MQTT">Frontend/Backend</div>
+            </div>
+            <div class="orbit">
+              <div class="planet" data-description="Designing smart systems with ESP32, sensors, and MQTT — focused on real-time monitoring and automation.">IoT</div>
+            </div>
+            <!-- <div class="orbit">
+              <div class="planet">DSA</div>
+            </div> -->
+
+            <!-- Add more orbits or multiple planets per orbit if needed -->
+          </div>
+
+          <div class="galaxy2">
+            <div class="center-star">Personal</div>
+            <div id="personal-description-box" class="description-box"></div>
+            <div class="orbit">
+              <div class="planet" data-description="Trained in Indian classical music and a black belt in Taekwondo — blending rhythm and discipline into everything I pursue.">Passion-sphere</div>
+            </div>
+            <div class="orbit">
+              <div class="planet" data-description="Strong communicator with a passion for connecting people, fostering teamwork, and cultivating meaningful relationships in both professional and personal spheres.">Social-orbit</div>
+            </div>
+            <div class="orbit">
+              <div class="planet" data-description="Dedicated to continuous learning and personal growth, I maintain a laser focus on honing my skills and achieving my goals, prioritizing discipline, perseverance, and resilience.">Focus-ring</div>
+            </div>
+            <!-- Add more orbits or multiple planets per orbit if needed -->
+          </div>
+
+        </div>
+        </section>
+
+        <section class="gallery-page" id="gallery">
+          <h2 class="gallery-title">Gallery</h2>
+          <div class="carousel-container">
+            <button class="arrow left" onclick="scrollGallery(-1)">&#10094;</button>
+        
+            <div class="carousel" id="carousel">
+              <div class="image-container">
+              <img src="Panvel.jpg" alt="Panvel">
+              <div class="image-description">Panvel, Navi Mumbai is my birthplace. The years spent there shaped my childhood and instilled in me a love for exploration and learning.</div>
+            </div>
+            <div class="image-container">
+              <img src="dav.webp" alt="dav">
+              <div class="image-description">Early education at DAV Public School, Panvel, marked the beginning of my academic journey. The school laid the foundation for my learning, fostering curiosity and a strong base for future studies. </div>
+            </div>
+            <div class="image-container">
+              <img src="drive.png" alt="Patna">
+              <div class="image-description">I've lived in Patna, Bihar, since I was 10, and it has shaped who I am today. The city’s rich history, culture, and vibrant community have been a constant source of inspiration, offering me a unique blend of tradition and modernity as I continue to grow and pursue my dreams.</div>
+            </div>
+            <div class="image-container">
+              <img src="birla.jpg" alt="omk">
+              <div class="image-description">Middle to high school at Open Minds A Birla School, Patna, was a pivotal time for me. It not only sharpened my academic skills but also fostered my personal growth, preparing me for future challenges.</div>
+            </div>
+
+            <div class="image-container">
+              <img src="senior.webp" alt="seniorschool">
+              <div class="image-description">I did my senior secondary schooling from Holy Convent Senior Secondary School, Delhi.</div>
+            </div>
+
+            <div class="image-container">
+              <img src="college.avif" alt="IIIT Hyderabad">
+              <div class="image-description">I am currently pursuing my B.Tech in Computer Science and Engineering at IIIT Hyderabad. The institute offers a dynamic learning environment, fostering both technical skills and personal growth. It has provided me with numerous opportunities to explore my interests in technology while engaging in a vibrant campus life</div>
+            </div>
+
+              <!-- Add more images as needed -->
+            </div>
+        
+            <button class="arrow right" onclick="scrollGallery(1)">&#10095;</button>
+          </div>
+        </section>
+
+        <section class="contact-page" id="contact">
+          <div class="achievement_cont">
+            <h2>Achievements</h2>
+            <p>
+              <ul>
+                <li>Scored 95% in 10<sup>th</sup> CBSE Boards.</li>
+                <li>Scored 95% in 12<sup>th</sup> CBSE Boards.</li>
+                <li>Secured AIR 2172 in JEE Mains in current year.</li>
+                <li>Awarded a black belt in Taekwondo upon successful completion of training and examination at the age of 14.</li>
+              </ul>
+            </p>
+          </div>
+          <h2>Contact Me</h2>
+          <div class="contact-container">
+            <a href="https://www.instagram.com/shraw_06" class="contact-card" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <span>@shraw_06</span>
+            </a>
+            <a href="https://www.linkedin.com/in/shrawani-nanda-93a4a3322" class="contact-card" target="_blank">
+              <i class="fab fa-linkedin"></i>
+              <span>/shrawani-nanda</span>
+            </a>
+            <a href="mailto:shrawani.nanda@gmail.com" class="contact-card">
+              <i class="fas fa-envelope"></i>
+              <span>shrawani.nanda@gmail.com</span>
+            </a>
+          </div>
+        </section>
+        
+        <section class="text_analyser" id="text">
+          <h1>Text Analyzer</h1>
+          <textarea id="textInput" placeholder="Enter text with more than 10,000 words."></textarea>
+          <br>
+          <button id="analyzeBtn" onclick="analyzeText()">Analyze Text</button>
+
+          <div class="output" id="output"></div>
+        </section>
+        
+
+         </div>
+        </div>
+    </body>
+</html>
+
+<script>
+
+// Select all planets and description boxes
+const professionalPlanets = document.querySelectorAll('.galaxy1 .planet');
+const personalPlanets = document.querySelectorAll('.galaxy2 .planet');
+const professionalDescriptionBox = document.getElementById('professional-description-box');
+const personalDescriptionBox = document.getElementById('personal-description-box');
+
+let currentVisibleBox = null;
+
+// Function to show description
+function showDescription(description, galaxy) {
+    // Hide any currently visible box
+    if (currentVisibleBox) {
+        currentVisibleBox.style.display = 'none';
+    }
+    
+    // Determine which box to show
+    const boxToShow = galaxy === 'professional' 
+        ? professionalDescriptionBox 
+        : personalDescriptionBox;
+    
+    // Set content and display
+    boxToShow.textContent = description;
+    boxToShow.style.display = 'block';
+    currentVisibleBox = boxToShow;
+}
+
+// Function to hide description
+function hideDescription() {
+    if (currentVisibleBox) {
+        currentVisibleBox.style.display = 'none';
+        currentVisibleBox = null;
+    }
+}
+
+// Add click events to planets
+professionalPlanets.forEach(planet => {
+    planet.addEventListener('click', function(e) {
+      const timeLogged = new Date().toISOString();
+      console.log(timeLogged + ", click, text");
+        e.stopPropagation();
+        const description = planet.getAttribute('data-description');
+        showDescription(description, 'professional');
+    });
+});
+
+personalPlanets.forEach(planet => {
+    planet.addEventListener('click', function(e) {
+      const timeLogged = new Date().toISOString();
+      console.log(timeLogged + ", click, text");
+        e.stopPropagation();
+        const description = planet.getAttribute('data-description');
+        showDescription(description, 'personal');
+    });
+});
+
+// Click anywhere else to hide
+document.addEventListener('click', function() {
+    hideDescription();
+});
+
+// Prevent clicks inside description boxes from closing them
+professionalDescriptionBox.addEventListener('click', function(e) {
+    e.stopPropagation();
+});
+
+personalDescriptionBox.addEventListener('click', function(e) {
+    e.stopPropagation();
+});
+
+
+
+
+</script>
+
+<script>
+
+  const carousel = document.getElementById('carousel');
+
+function scrollGallery(direction) {
+  const scrollStep = 320; // width + margin
+  const currentScroll = carousel.scrollLeft;
+  const targetScroll = currentScroll + (direction * scrollStep);
+  
+  carousel.scrollTo({
+    left: targetScroll,
+    behavior: 'smooth'
+  });
+}
+
+// Handle keyboard arrow keys for gallery navigation
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowLeft') {
+        scrollGallery(-1);
+    } else if (e.key === 'ArrowRight') {
+        scrollGallery(1);
+    }
+});
+
+</script>
+
+<script>
+  // Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',top: -40,
+
+            });
+        }
+    });
+});
+</script>
+
+<script>
+  //q3
+  function analyzeText() {
+    const inputText = document.getElementById("textInput").value;
+    const resultContainer = document.getElementById("output");
+    
+    const letterCount = (inputText.match(/[a-zA-Z]/g) || []).length;
+    const wordCount = (inputText.trim().split(/\s+/).filter(Boolean)).length;
+    const spaceCount = (inputText.match(/ /g) || []).length;
+    const newlineCount = (inputText.match(/\n/g) || []).length;
+    const specialCharCount = (inputText.match(/[^a-zA-Z0-9\s\n]/g) || []).length;
+
+    const pronounList = ["I", "you", "he", "she", "it", "we", "they"];
+    const pronounStats = {};
+    pronounList.forEach(p => {
+      pronounStats[p] = (inputText.match(new RegExp(`\\b${p}\\b`, 'gi')) || []).length;
+    });
+
+    const prepList = ["in", "on", "at", "by", "with", "about", "against", "for", "during", "before", "after"];
+    const prepStats = {};
+    prepList.forEach(prep => {
+      prepStats[prep] = (inputText.match(new RegExp(`\\b${prep}\\b`, 'gi')) || []).length;
+    });
+
+    const articles = ["a", "an"];
+    const articleStats = {};
+    articles.forEach(article => {
+      articleStats[article] = (inputText.match(new RegExp(`\\b${article}\\b`, 'gi')) || []).length;
+    });
+
+
+    resultContainer.innerHTML = `
+      <div class="result"><strong>Letters:</strong>${letterCount}</div>
+      <div class="result"><strong>Words:</strong> ${wordCount}</div>
+      <div class="result"><strong>Spaces:</strong> ${spaceCount}</div>
+      <div class="result"><strong>Newlines:</strong> ${newlineCount}</div>
+      <div class="result"><strong>Special Characters:</strong> ${specialCharCount}</div>
+      
+      <h3>Pronouns:</h3>
+      <ul>
+        ${Object.entries(pronounStats).map(([key, val]) => `<li><strong>${key}:</strong> ${val}</li>`).join('')}
+      </ul>
+
+      <h3>Prepositions:</h3>
+      <ul>
+        ${Object.entries(prepStats).map(([key, val]) => `<li><strong>${key}:</strong> ${val}</li>`).join('')}
+      </ul>
+
+      <h3>Indefinite Articles:</h3>
+      <ul>
+        ${Object.entries(articleStats).map(([key, val]) => `<li><strong>${key}:</strong> ${val}</li>`).join('')}
+      </ul>
+    `;
+  }
+</script>
+
+<script>
+  //q2
+
+  document.addEventListener("DOMContentLoaded", function() {
+    recordUserEvent("view", document.body);
+
+    document.addEventListener("click", function (e) {
+      const timeLogged = new Date().toISOString();
+      const clickedElement = e.target;
+      const interactionType = "click";
+
+     
+      let elementCategory = "unknown";
+      const tag = clickedElement.tagName;
+
+
+      if(tag==="IMG") {
+        elementCategory = "image";
+      }
+      else if(tag==="A"){
+        elementCategory = "hyperlink";
+      }
+      else if(tag==="BUTTON"){
+        elementCategory = "button";
+      }
+      else if(tag==="SELECT"){
+        elementCategory = "drop-down";
+      }
+      else if(
+      tag === "P" ||
+      tag === "SPAN" ||
+      tag === "H1" ||
+      tag === "H2" ||
+      tag === "H3" ||
+      tag === "H4" ||
+      tag === "H5" ||
+      tag === "H6"
+    )
+    {
+      elementCategory = "text";
+    }
+    else if (tag === "INPUT") {
+      elementCategory = "form-input";
+    }
+
+    if(clickedElement.className=="planet")
+    {
+      elementCategory = "text";
+    }
+
+    console.log(timeLogged + ", " + interactionType + ", " + elementCategory);
+  });
+
+  const pages = document.querySelectorAll('section.page, section.gallery-page, section.contact-page, section.text_analyser');  const observerOptions = {
+    threshold: 0.5   // when 50% or more of the section is visible
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // When a new page enters the viewport, log a page view event.
+        recordUserEvent("view", entry.target);
+      }
+    });
+  }, observerOptions);
+
+  pages.forEach(page => {
+    observer.observe(page);
+  });
+
+  function recordUserEvent(eventKind, elementNode) {
+    const eventTime = new Date().toISOString();
+    let typeOfElement = "text";
+    const tag = elementNode.tagName;
+     
+    if(tag === "BODY") {
+    typeOfElement = "page-view";
+  }
+    else if (tag === "IMG") {
+      typeOfElement = "image";
+    } else if (tag === "A") {
+      typeOfElement = "hyperlink";
+    }
+
+  //   if(tag === "BODY") {
+  //   typeOfElement = "page-view";
+  // }
+
+    console.log(eventTime + ", " + eventKind + ", " + typeOfElement);
+  }
+  });
+</script>
